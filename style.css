@@ -1,0 +1,327 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&family=Frijole&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kaushan+Script&family=Meow+Script&family=Paytone+One&family=Red+Rose:wght@300..700&family=Rhodium+Libre&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    width: 500px;
+    background-color: rgb(255, 248, 220);
+}
+.ribbon{
+    position: relative;
+    width: 100%;
+    height: 39px;
+    text-align: center;
+    background-color: rgb(161, 135, 92);
+}
+.ribbon i{
+    position: absolute;
+    font-size: 22px;
+    width: auto;
+    right: 0;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.title{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(247, 230, 212);
+}
+.content{
+    position: relative;
+    padding: 5px;
+    height: 380px;
+    background-color: rgb(239, 209, 181);
+}
+.qoute{
+    position: relative;
+    width: auto;
+    margin:0;
+    height: 155px;
+    background-color: rgb(255, 248, 220);
+}
+.footer{
+    position: relative;
+    height: 30px;
+    width: 500px;
+    background-color: rgb(177, 148, 99);
+}
+.footer p{
+    top:0;
+    text-align: center;
+    font-size: small;
+    font-family: 'Abel';
+    padding: 8px;
+}
+/*ribbon-elements*/
+.wellness{
+    position:absolute;
+    left: 0;
+    margin-top: -13px;
+    margin-left: 10px;
+    font-size: 19px;
+    font-family: 'Paytone One', arial;
+    color: rgb(243, 222, 151);
+}
+.pro{
+    color: rgb(252, 248, 246);
+}
+.home, .about, .team, .blog, .contact{
+    position:absolute;
+    margin-top: -2px;
+    right: 0;
+    font-size: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'Abel', arial;
+    color: white;
+}
+.home{
+    position: absolute;
+    background-color: rgb(254, 231, 153); 
+    margin-right: 265px;
+    color: black;
+}
+.about{
+    margin-right: 223px;
+}
+.team{
+    margin-right: 166px;
+    text-decoration: none;
+}
+.blog{
+    margin-right: 130px;
+}
+.contact{
+    margin-right: 60px;
+}
+/*title-elements*/
+.imghealth{
+    position: absolute;
+    width: 330px;
+    right: 0;
+    margin-right: 70px;
+}
+.imghealth img{
+    width: 100%;
+    height: 280px;
+}
+.circle1, .circle2{
+    position: absolute;
+    height: 450px;
+    width: 400px;
+    border-radius: 50%;
+    
+}
+.circle1{
+    margin-right: -240px;
+    margin-top: 150px;
+    opacity: 20%;
+    background-color: rgb(240, 193, 146);
+    right:0;
+}
+.circle2{
+    top: 0;
+    margin-top: -200px;
+    background-color: rgb(161, 135, 92);
+    margin-left: 400px;
+    opacity: 5%;
+}
+/*right-content-elements*/
+.right-content{
+    position: absolute;
+    background-color: rgb(251, 240, 212);
+    height: 360px;
+    width: 150px;
+    right: 0;
+    margin-top: 15px;
+    margin-right: 12px;
+}
+.right-content img{
+    position: absolute;
+    height: 30px;
+    width: 90px;
+    bottom: 0;
+    margin-left: 29px;
+}
+.p-trend{
+    position: absolute;
+    height: 25px;
+    width: 90px;
+    font-size: 16px;
+    top: 0;
+    margin-top: -11px;
+    margin-left: 29px;
+    background-color: rgb(176, 148, 100); 
+}
+.p-trend p{
+    text-align: center;
+    padding: 0;
+    margin-top: 2px;
+    font-family: 'Righteous', Arial;
+}
+.wellgood, .happi, .site, .ltc{
+    position: absolute;
+    top:0;
+    font-size: 12px;
+    font-family: 'Rhodium Libre';;
+    color: black;
+    margin-left: 15px;
+}
+.wellgood{
+    margin-top: 20px;
+}
+.happi{
+    margin-top: 165px;
+}
+.site{
+    font-size: 8px;
+    margin-top: 280px;
+    margin-left: 38px;
+}
+.ltc{
+    margin-top: 310px;
+}
+.pic1trend{
+    position:relative;
+    margin-top: 150px;
+}
+.pic1trend img{
+    height: 95px;
+    width: 100px;
+    right:0;
+    margin-right: 25px;
+}
+.pic2trend{
+    position:relative;
+    margin-top: 277px;
+}
+.pic2trend img{
+    margin: auto;
+    margin-left: 20px;
+    height: 88px;
+    width: 110px;
+}
+/*center-content-elements*/
+.center-content{
+    position: absolute;
+    height: 370px;
+    width: 230px;
+    left: 0;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.center-content h3{
+    font-family: 'Righteous', arial;
+}
+.center-content p{
+    position: absolute;
+    color: black;
+    font-size: 8px;
+    font-family: 'Rhodium Libre', arial;
+    left: 0;
+    top:0;
+}
+.knowledge{
+    position: absolute;
+    color: black;
+    left: 0;
+    margin-top: 12px;
+}
+.training{
+    position: absolute;
+    color: black;
+    left: 0;
+    top:0;
+    margin-top: 145px;
+}
+.well{
+    position: absolute;
+    color: black;
+    left: 0;
+    top:0;
+    margin-top: 260px;
+}
+.p1{
+    margin-top: 45px;
+}
+.p2{
+    margin-top: 180px;;
+}
+.p3{
+    margin-top: 290px;;
+}
+/*left-content*/
+.left-content{
+    position: absolute;
+    height: 350px;
+    width:130px;
+    right: 0;
+    margin-right: 360px;
+    margin-top: 20px;
+}
+.left-content img{
+    position: relative;
+    margin: 5px;
+    height: 95px;
+    padding: 5px;
+}
+/*qoute-elements*/
+.circle{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 0;
+    margin-top: 25px;
+    margin-left: 20px;;
+    border-radius: 50%;
+    border: 1px solid rgb(107, 17, 17);
+    background-color: rgb(255, 255, 255);
+}
+.childcircle{
+    position: absolute;
+    margin: 2px;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    background-color: rgb(176, 148, 100)
+}
+.childcircle p{
+    position: absolute;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: 'Josefin Sans';
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+.childcircle h2{
+    position: absolute;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 35px;
+    bottom: 0;
+    margin-bottom: 28px;
+    margin-left: 9px;
+    font-family:'Bebas Neue';
+    color: white;
+}
+.qouteText{
+    position: absolute;
+    left: 0;
+    margin-left: 160px;
+    margin-top: -25px;
+    margin-right: 15px;
+    font-size: 40px;
+    font-family: 'Meow Script';
+}
+.qouteText b{
+    font-family: 'Kaushan Script';
+    font-size: 30px;
+}
